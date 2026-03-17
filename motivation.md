@@ -1,14 +1,19 @@
 # Motivation
-<!-- Fill this in honestly. A few sentences per section is fine. -->
+I want to gain real-world experience contributing to open-source software. While exploring the Mesa examples repository, I noticed that several examples no longer run correctly due to API changes or dependency issues. This made me interested in working on improving the reliability and maintainability of the examples so that new users can learn Mesa more easily.  
 
 ## Who I am
-<!-- Your background — what you study/work on, your programming experience, anything relevant. -->
-
+Name: Tushar Mahato
+Education: Diploma in CSE (currently Pursuing)
+Experience: I primarily work with Python and have been exploring the Mesa ecosystem. While auditing examples in the mesa-examples repository, I developed a prototype validator script that discovers examples, installs dependencies, and checks whether they run successfully.
 ## Why Mesa
-<!-- What drew you to Mesa specifically? Have you used it before? How did you find it? -->
+I chose Mesa because it combines two areas that interest me: Python development and simulation of complex systems. 
 
 ## What I want to learn
-<!-- What aspects of Mesa or ABM are you most interested in? What skills do you want to develop? -->
+Through this project I want to learn more about:
+"agent-based modeling using Mesa"
+"maintaining real-world open-source repositories"
+"designing sustainable CI systems to detect breakages early"
+"improving documentation and examples so they remain useful as a project evolves"
 
 ## Where I want to go
-<!-- What's your goal with contributing to Mesa? What kind of contributions do you see yourself making? -->
+My goal is to contribute improvements that make Mesa examples easier to run and maintain over time. In particular, I am interested in developing approaches that help detect when examples break due to framework changes and making it easier for contributors to keep them working. 
