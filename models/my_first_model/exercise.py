@@ -9,7 +9,7 @@ class HelloAgent(Agent):
 
 
     def step(self):
-        print(f"Agent {self.unique_id} have {self.wealth} money")                # your job: print the wealth
+        print(f"Agent {self.unique_id} has ${self.wealth}")                # your job: print the wealth
 
 
 class HelloModel(Model):
@@ -26,4 +26,7 @@ class HelloModel(Model):
 
 model = HelloModel(20)
 
-model.step()
+
+for tick in range(3):
+    print(f"\n--- Step {tick} ---")
+    model.step()
